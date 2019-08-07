@@ -3,7 +3,7 @@ y=[]
 for i in range(len(s)):
     y.append(s[i])
 x=int(len(y)/2)
-if x%2!=0:
+if len(y)%2!=0:
     y[x]='*'
 else:
     y[x]='*'
